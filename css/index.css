@@ -1,49 +1,49 @@
 * {
   font-family: "Federo", sans-serif;
+  font-size: 1em;
 }
 
-.text-small {
-  font-size: 30px;
+html {
+  min-width: 255px;
 }
 
 header {
   position: fixed;
-  position: fixed;
-  height: 80px;
+  height: 56px;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 999;
 }
 
+nav {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
 section {
   margin-top: 56px;
   width: 100%;
   height: calc(100vh - 56px);
-  background-image: url(/assets/img-first-panel.jpg);
+  background-image: url(/assets/img-first-panel3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-section p {
-  font-size: 40px;
-}
 
 .section-content {
- /*  margin-left: 35em; */
-/*   background: rgba(255, 255, 255, 0.07);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3) */;
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(17, 25, 40, 0.75);
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
+  max-width: 520px;
 }
 
-article {
-  height: calc(100vh - 56px);
+section p,
+.article-info p {
+  color: white;
+}
+
+article ul {
+  min-height: min-content;
+}
+
+footer {
+  color: white;
 }
